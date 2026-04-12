@@ -1,0 +1,12 @@
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+Yves_Jocelyn_Portfolio.xlsx
+*.ipynb
