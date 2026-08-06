@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yves Jocelyn - Portfolio Logistique</title>
+    <meta name="description" content="Portfolio de Yves Jocelyn N'Da, consultant SIG, logistique et analyse de données.">
+    <title>Yves Jocelyn N'Da | Consultant SIG & Logistique</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -14,9 +15,9 @@
             <ul class="nav-menu">
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#apropos">À propos</a></li>
-                <li><a href="#projets">Expériences</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#formation">Formation</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projets">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
@@ -28,10 +29,14 @@
     <section id="accueil" class="hero">
         <div class="container hero-grid">
             <div class="hero-text">
-                <p class="eyebrow">Coordination terrain & Logistique</p>
-                <h1>N’DA YAKPIN <span>YVES JOCELYN</span></h1>
-                <p>Jeune professionnel dynamique, spécialisé dans la coordination terrain, la gestion d’équipe et la collecte de données pour des projets d’adressage urbain.</p>
-                <a href="#contact" class="btn">Me contacter</a>
+                <p class="eyebrow">Consultant SIG | Logistique & Supply Chain | Analyse de données</p>
+                <h1>Yves Jocelyn <span>N'Da</span></h1>
+                <p>Transformer les données terrain en décisions stratégiques grâce aux SIG, à la logistique et à l'analyse de données.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn">Télécharger mon CV</a>
+                    <a href="#projets" class="btn btn-secondary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
             </div>
             <div class="hero-card">
                 <img src="IMG_6568.jpeg" alt="Photo de Yves Jocelyn">
@@ -39,19 +44,43 @@
         </div>
     </section>
 
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-card">
+                <strong>100+</strong>
+                <span>Agents formés</span>
+            </div>
+            <div class="stat-card">
+                <strong>10+</strong>
+                <span>Sites coordonnés</span>
+            </div>
+            <div class="stat-card">
+                <strong>98%</strong>
+                <span>Conformité des données</span>
+            </div>
+            <div class="stat-card">
+                <strong>250+</strong>
+                <span>Équipements installés</span>
+            </div>
+        </div>
+    </section>
+
     <section id="apropos" class="about">
         <div class="container">
-            <h2>À propos de moi</h2>
+            <div class="section-header">
+                <p class="section-tag">À propos</p>
+                <h2>Une expertise au croisement de la logistique, des SIG et de la donnée</h2>
+            </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Jeune professionnel dynamique avec une expérience dans la logistique, la gestion d’équipe et la collecte de données terrain. J’ai participé à des projets nationaux d’adressage urbain avec le MCLU et le BNETD.</p>
-                    <p>Organisé, rigoureux et capable de travailler en équipe, je maîtrise les outils informatiques de base et j’ai une bonne capacité d’adaptation.</p>
-                    <p>Disponible immédiatement pour accompagner des projets terrain et garantir un suivi de qualité.</p>
+                    <p>Titulaire d'une formation en logistique, supply chain et transport, j'ai développé une expertise en coordination de projets terrain, cartographie numérique, analyse de données et gestion opérationnelle.</p>
+                    <p>Au cours des dernières années, j'ai participé à plusieurs projets de grande envergure en Côte d'Ivoire, impliquant la formation d'agents, la supervision d'équipes, le contrôle qualité des données et le suivi cartographique sous QGIS.</p>
+                    <p>J'interviens également dans la conception de tableaux de bord décisionnels avec Power BI, l'analyse de données avec SQL et Python, ainsi que dans le déploiement d'équipements techniques sur le terrain.</p>
                 </div>
                 <div class="about-details">
                     <div>
                         <h3>Coordonnées</h3>
-                        <p><strong>Téléphone :</strong> 0777828099</p>
+                        <p><strong>Téléphone :</strong> +225 07 77 828 099</p>
                         <p><strong>Email :</strong> <a href="mailto:Yvesmryves@gmail.com">Yvesmryves@gmail.com</a></p>
                         <p><strong>Localisation :</strong> Abidjan, Côte d’Ivoire</p>
                     </div>
@@ -59,8 +88,8 @@
                         <h3>Atouts</h3>
                         <ul>
                             <li>Expérience terrain réelle</li>
-                            <li>Bonne capacité d’adaptation</li>
-                            <li>Sérieux et motivé</li>
+                            <li>Bonne capacité d'adaptation</li>
+                            <li>Rigueur et suivi qualité</li>
                             <li>Disponible immédiatement</li>
                         </ul>
                     </div>
@@ -69,92 +98,240 @@
         </div>
     </section>
 
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Domaines d'expertise</p>
+                <h2>Des solutions complètes de terrain à la décision</h2>
+            </div>
+            <div class="expertise-grid">
+                <article class="expertise-card">
+                    <h3>SIG & Cartographie</h3>
+                    <ul>
+                        <li>QGIS</li>
+                        <li>ArcGIS</li>
+                        <li>Analyse spatiale</li>
+                        <li>Géoréférencement</li>
+                        <li>GPS</li>
+                        <li>Cartographie thématique</li>
+                    </ul>
+                </article>
+                <article class="expertise-card">
+                    <h3>Logistique & Supply Chain</h3>
+                    <ul>
+                        <li>Gestion des stocks</li>
+                        <li>Gestion des flux</li>
+                        <li>Approvisionnement</li>
+                        <li>Planification</li>
+                        <li>Optimisation logistique</li>
+                        <li>Transport</li>
+                    </ul>
+                </article>
+                <article class="expertise-card">
+                    <h3>Analyse de données</h3>
+                    <ul>
+                        <li>SQL Server</li>
+                        <li>Power BI</li>
+                        <li>Python</li>
+                        <li>Excel avancé</li>
+                        <li>Statistiques</li>
+                        <li>Reporting</li>
+                    </ul>
+                </article>
+                <article class="expertise-card">
+                    <h3>Gestion de projets</h3>
+                    <ul>
+                        <li>Coordination terrain</li>
+                        <li>Formation d'équipes</li>
+                        <li>Gestion de projet</li>
+                        <li>Contrôle qualité</li>
+                        <li>Suivi des indicateurs</li>
+                        <li>Planification</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Expérience</p>
+                <h2>Des missions terrain et opérationnelles au service de résultats</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-badge">2021 – 2025</div>
+                    <div class="timeline-content">
+                        <h3>Coordinateur Terrain & Formateur</h3>
+                        <p class="timeline-meta">Ministère de la Construction</p>
+                        <ul>
+                            <li>Formation de plus de 200 agents</li>
+                            <li>Coordination de plusieurs équipes</li>
+                            <li>Contrôle qualité et suivi des indicateurs</li>
+                            <li>Cartographie sous QGIS et reporting</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-badge">2025</div>
+                    <div class="timeline-content">
+                        <h3>Technicien d'installation</h3>
+                        <p class="timeline-meta">Cameras, panneaux solaires et réseaux électriques</p>
+                        <ul>
+                            <li>Installation de plus de 250 équipements</li>
+                            <li>Réduction des coûts énergétiques</li>
+                            <li>Suivi qualité et satisfaction proche de 95%</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-badge">2018 – 2019</div>
+                    <div class="timeline-content">
+                        <h3>Infographiste</h3>
+                        <p class="timeline-meta">Création de supports de communication</p>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>Mise en page et supports de communication</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <section id="projets" class="projects">
         <div class="container">
-            <h2>Expériences professionnelles</h2>
-            <div class="projects-grid">
+            <div class="section-header">
+                <p class="section-tag">Projets</p>
+                <h2>Quelques projets marquants réalisés ou accompagnés</h2>
+            </div>
+            <div class="project-grid">
                 <article class="project-card">
-                    <h3>Coordinateur terrain</h3>
-                    <p class="project-meta">Projet PAVI (MCLU / BNETD) • 2025</p>
-                    <p>Daloa, Korhogo, Yamoussoukro</p>
-                    <ul>
-                        <li>Coordination des équipes terrain</li>
-                        <li>Organisation et suivi des activités</li>
-                        <li>Contrôle qualité des données collectées</li>
-                        <li>Rédaction de rapports</li>
-                    </ul>
+                    <h3>Projet d'Adressage National</h3>
+                    <p>Cartographie numérique, collecte mobile, contrôle qualité et gestion de données sous QGIS.</p>
+                    <span>QGIS • Collecte • Cartographie</span>
                 </article>
                 <article class="project-card">
-                    <h3>Chef d’équipe</h3>
-                    <p class="project-meta">Projet d’adressage PADA (MCLU / BNETD) • 2022 – 2024</p>
-                    <p>Abidjan</p>
-                    <ul>
-                        <li>Gestion d’équipe d’agents terrain</li>
-                        <li>Collecte et organisation des données</li>
-                        <li>Participation à l’adressage du District d’Abidjan</li>
-                        <li>Formation des nouveaux agents</li>
-                    </ul>
+                    <h3>Tableau de bord Power BI</h3>
+                    <p>Suivi logistique, visualisation, reporting et pilotage à partir de données terrain.</p>
+                    <span>Power BI • SQL • Reporting</span>
                 </article>
                 <article class="project-card">
-                    <h3>Supervision installations techniques</h3>
-                    <p class="project-meta">Caméras & panneaux solaires • 2019 – 2020</p>
-                    <p>Abidjan</p>
-                    <ul>
-                        <li>Suivi des travaux d’installation</li>
-                        <li>Organisation du travail sur site</li>
-                        <li>Coordination avec les techniciens</li>
-                    </ul>
+                    <h3>Analyse SQL</h3>
+                    <p>Gestion de bases de données, optimisation des flux et production de statistiques utiles.</p>
+                    <span>SQL Server • Base de données • Analyse</span>
+                </article>
+                <article class="project-card">
+                    <h3>Python</h3>
+                    <p>Automatisation des rapports, nettoyage des données et scripts de traitement.</p>
+                    <span>Python • Automatisation • Traitement de données</span>
                 </article>
             </div>
         </div>
     </section>
 
-    <section id="competences" class="skills">
+    <section class="services">
         <div class="container">
-            <h2>Compétences</h2>
-            <div class="skills-grid">
-                <div class="skill-card"><strong>Gestion de stock</strong><span>Notions</span></div>
-                <div class="skill-card"><strong>Organisation & logistique</strong></div>
-                <div class="skill-card"><strong>Travail en équipe</strong></div>
-                <div class="skill-card"><strong>Gestion d’équipe</strong></div>
-                <div class="skill-card"><strong>Rigueur & organisation</strong></div>
-                <div class="skill-card"><strong>Collecte de données</strong></div>
+            <div class="section-header">
+                <p class="section-tag">Services</p>
+                <h2>Je peux accompagner votre organisation dans plusieurs dimensions</h2>
             </div>
-            <h2>Informatique</h2>
-            <div class="skills-grid">
-                <div class="skill-card">Microsoft Word</div>
-                <div class="skill-card">Microsoft Excel</div>
-                <div class="skill-card">PowerPoint</div>
-                <div class="skill-card">Photoshop</div>
-                <div class="skill-card">QGIS / QField (bases)</div>
-                <div class="skill-card">Visual Studio Code (notions)</div>
+            <div class="service-grid">
+                <div class="service-card">Cartographie SIG</div>
+                <div class="service-card">Analyse de données</div>
+                <div class="service-card">Organisation logistique</div>
+                <div class="service-card">Collecte mobile (KoboToolbox, ODK)</div>
+                <div class="service-card">Formation des équipes</div>
+                <div class="service-card">Tableaux de bord Power BI</div>
+                <div class="service-card">Rapports d'analyse</div>
+                <div class="service-card">Production cartographique</div>
             </div>
         </div>
     </section>
 
-    <section id="formation" class="education">
+    <section class="tools">
         <div class="container">
-            <h2>Formation</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <h3>Bac A</h3>
-                    <p>2021</p>
-                </div>
-                <div class="education-card">
-                    <h3>BTS Logistique</h3>
-                    <p>Niveau en cours</p>
-                </div>
-                <div class="education-card">
-                    <h3>Formation en infographie</h3>
-                </div>
-                <div class="education-card">
-                    <h3>Cisco Intro to Data Science</h3>
-                    <p>Certifié</p>
-                </div>
-                <div class="education-card">
-                    <h3>Cisco Intro to Modern AI</h3>
-                    <p>Certifié</p>
-                </div>
+            <div class="section-header">
+                <p class="section-tag">Outils</p>
+                <h2>Un ensemble d'outils adaptés au terrain et à l'analyse</h2>
+            </div>
+            <div class="tool-list">
+                <span>QGIS</span>
+                <span>ArcGIS</span>
+                <span>Google Earth Pro</span>
+                <span>Power BI</span>
+                <span>SQL Server</span>
+                <span>Excel</span>
+                <span>Python</span>
+                <span>KoboToolbox</span>
+                <span>ODK Collect</span>
+                <span>Word</span>
+                <span>PowerPoint</span>
+                <span>Photoshop</span>
+                <span>Illustrator</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Témoignages</p>
+                <h2>La confiance de mes partenaires et équipes</h2>
+            </div>
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <p>“Professionnel rigoureux, excellent coordinateur.”</p>
+                    <strong>Chef de projet</strong>
+                </article>
+                <article class="testimonial-card">
+                    <p>“Très bonne maîtrise de la cartographie et du suivi terrain.”</p>
+                    <strong>Responsable opérationnel</strong>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Certifications</p>
+                <h2>Formation et certifications en progression</h2>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card">Formation Logistique & Supply Chain</div>
+                <div class="cert-card">QGIS</div>
+                <div class="cert-card">Power BI</div>
+                <div class="cert-card">Python</div>
+                <div class="cert-card">SQL</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Blog</p>
+                <h2>Des articles utiles pour valoriser l'expertise</h2>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <h3>Comment utiliser QGIS pour un projet d'adressage</h3>
+                </article>
+                <article class="blog-card">
+                    <h3>Les erreurs fréquentes en collecte de données terrain</h3>
+                </article>
+                <article class="blog-card">
+                    <h3>Power BI appliqué à la logistique</h3>
+                </article>
+                <article class="blog-card">
+                    <h3>De la logistique aux SIG : retour d'expérience</h3>
+                </article>
             </div>
         </div>
     </section>
@@ -162,14 +339,16 @@
     <section id="contact" class="contact">
         <div class="container contact-grid">
             <div>
-                <h2>Contact</h2>
+                <p class="section-tag">Contact</p>
+                <h2>Discutons de votre prochain projet</h2>
                 <p><strong>Téléphone :</strong> +225 07 77 828 099</p>
                 <p><strong>Email :</strong> <a href="mailto:Yvesmryves@gmail.com">Yvesmryves@gmail.com</a></p>
                 <p><strong>Localisation :</strong> Abidjan, Côte d’Ivoire</p>
+                <p><strong>Site :</strong> <a href="https://yvesnda.netlify.app">yvesnda.netlify.app</a></p>
             </div>
             <div class="contact-card">
                 <h3>Disponible</h3>
-                <p>Disponible immédiatement pour un nouveau projet terrain ou logistique.</p>
+                <p>Disponible immédiatement pour des missions terrain, logistiques, SIG ou d'analyse de données.</p>
             </div>
         </div>
     </section>
@@ -178,10 +357,12 @@
         <div class="container footer-content">
             <p>&copy; Merci Pour Votre Visite</p>
             <div class="footer-links">
-                <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/pnpcrz6p5z-sudo" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">Netlify</a>
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
