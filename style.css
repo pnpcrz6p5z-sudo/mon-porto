@@ -172,10 +172,25 @@ nav {
 .hero-text p {
     font-size: 1.05rem;
     max-width: 620px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
-.hero-actions {
+.hero-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 28px;
+}
+
+.hero-highlights span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(22, 163, 74, 0.1);
+    color: var(--primary);
+    font-weight: 600;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -198,28 +213,27 @@ nav {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
     padding: 14px 28px;
-    background: var(--primary);
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     color: #fff;
     border-radius: 999px;
     font-weight: 700;
     transition: all 0.3s ease;
+    box-shadow: 0 12px 24px rgba(11, 37, 69, 0.18);
 }
 
 .btn:hover {
-    background: var(--primary-dark);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
     transform: translateY(-2px);
-    box-shadow: var(--shadow);
+    box-shadow: 0 16px 32px rgba(11, 37, 69, 0.22);
 }
 
 .btn-secondary {
     background: transparent;
     color: var(--primary);
     border: 1px solid var(--border);
-}
-
-.btn-secondary:hover {
-    background: var(--surface);
+    box-shadow: none;
     color: var(--primary-dark);
 }
 
@@ -297,20 +311,49 @@ h2::after {
     gap: 18px;
 }
 
-.about-details h3 {
-    margin-top: 0;
+.positioning-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 24px;
 }
 
-.about-details ul {
-    margin: 0;
+.positioning-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    box-shadow: var(--shadow);
+}
+
+.positioning-main {
+    background: linear-gradient(135deg, rgba(11, 37, 69, 0.04) 0%, rgba(22, 163, 74, 0.08) 100%);
+}
+
+.pill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.pill-list span {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.positioning-side ul {
+    margin: 16px 0 0;
     padding-left: 20px;
 }
 
-.expertise-grid,
-.project-grid,
-.service-grid,
-.testimonial-grid,
-.blog-grid,
+.positioning-side li + li {
+    margin-top: 8px;
+}
 .cert-grid {
     display: grid;
     gap: 24px;
@@ -436,6 +479,7 @@ footer {
 @media (max-width: 960px) {
     .hero-grid,
     .about-content,
+    .positioning-grid,
     .contact-grid,
     .expertise-grid,
     .project-grid,
